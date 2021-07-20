@@ -1,0 +1,27 @@
+@startuml Architecture 3
+package "Presentation"{
+	[SignUpController] --> EmailValidator
+    [SignUpController] --> Controller
+    [SignUpController] --> AddAccount
+}
+
+package "Data" {
+	[DbAddAccount] --> Encrypter
+    [DbAddAccount] --> AddUserRepo
+}
+
+[DbAddAccount] -> AddAccount
+
+EmailValidator <-- [ValidatorAdapter]
+[ValidatorAdapter] --> [Validator]
+
+Controller <-- [ExpressAdapter]
+[ExpressAdapter] --> [Express]
+
+
+AddUserRepo <-- [MongoDBAdapter]
+[MongoDBAdapter] --> [MongoDB]
+
+Encrypter <-- [BCryptAdapter]
+[BCryptAdapter] --> [BCrypt]
+@enduml

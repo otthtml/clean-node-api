@@ -1,5 +1,5 @@
 {
-	"name": "Node.js",
+	"name": "clean-node-api",
 	"build": {
 		"dockerfile": "Dockerfile",
 	},

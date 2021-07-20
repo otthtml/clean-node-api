@@ -1,0 +1,6 @@
+@startuml Architecture 1
+[SignUpController] --> [Validator]
+[SignUpController] --> [Express]
+[SignUpController] --> [MongoDB]
+[SignUpController] --> [BCrypt]
+@enduml

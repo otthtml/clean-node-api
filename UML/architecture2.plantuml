@@ -1,0 +1,13 @@
+@startuml Architecture 2
+[SignUpController] <-- [ValidatorAdapter]
+[ValidatorAdapter] --> [Validator]
+
+[SignUpController] <-- [ExpressAdapter]
+[ExpressAdapter] --> [Express]
+
+[SignUpController] <-- [MongoDBAdapter]
+[MongoDBAdapter] --> [MongoDB]
+
+[SignUpController] <-- [BCryptAdapter]
+[BCryptAdapter] --> [BCrypt]
+@enduml
