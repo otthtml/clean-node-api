@@ -2,6 +2,8 @@
   "*.ts": [
     "eslint 'src/**' --fix",
     "npx jest --findRelatedTests",
-    "npx istanbul-badges-readme"
+    "npx istanbul-badges-readme",
+    "git add README.md",
+    "git add coverage/coverage-summary.json"
   ]
 }
