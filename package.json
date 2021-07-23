@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest --watch",
     "test:staged": "jest",
-    "make-badges": "istanbul-badges-readme"
+    "make-badges": "istanbul-badges-readme",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
