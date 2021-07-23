@@ -1,7 +1,7 @@
 {
   "*.ts": [
     "eslint 'src/**' --fix",
-    "npm test",
-    "npm make-badges"
+    "npx jest --findRelatedTests",
+    "npx istanbul-badges-readme"
   ]
 }

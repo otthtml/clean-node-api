@@ -4,10 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch",
-    "test:staged": "jest",
-    "make-badges": "istanbul-badges-readme",
-    "prepare": "husky install"
+    "test": "jest --watch"
   },
   "keywords": [],
   "author": "",
