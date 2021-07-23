@@ -5,7 +5,8 @@
 	},
 	"settings": {},
 	"extensions": [
-		"dbaeumer.vscode-eslint"
+		"dbaeumer.vscode-eslint",
+		"andys8.jest-snippets"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
