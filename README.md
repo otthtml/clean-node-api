@@ -1,6 +1,6 @@
 | Statements                  | Branches                | Functions                 | Lines             |
 | --------------------------- | ----------------------- | ------------------------- | ----------------- |
-| ![Statements](https://img.shields.io/badge/statements-76.92%25-red.svg) | ![Branches](https://img.shields.io/badge/branches-76.92%25-red.svg) | ![Functions](https://img.shields.io/badge/functions-60%25-red.svg) | ![Lines](https://img.shields.io/badge/lines-76.92%25-red.svg) |
+| ![Statements](https://img.shields.io/badge/statements-81.61%25-yellow.svg) | ![Branches](https://img.shields.io/badge/branches-78.57%25-red.svg) | ![Functions](https://img.shields.io/badge/functions-70%25-red.svg) | ![Lines](https://img.shields.io/badge/lines-81.61%25-yellow.svg) |
 
 
 # To run the project
