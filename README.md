@@ -4,10 +4,11 @@
 
 # Get started
 1. GET IN THE DEVCONTAINER IF YOU WANT TO LIVE. Everything will be executed inside.
-2. Install husky using "npx husky install"
-3. Run the tests using "npm test"
-4. Commit using commitizen "npx cz"
-5. AFTER COMMITING AND BEFORE PUSHING AND CALLING IT A DAY: Please generate the changelog by running "npm run release"
+2. Install all dependencies using "npm install"
+3. Install husky using "npx husky install"
+4. Run the tests using "npm test"
+5. Commit using commitizen "npx cz"
+6. AFTER COMMITING AND BEFORE PUSHING AND CALLING IT A DAY: Please generate the changelog by running "npm run release"
 
 # To run the project
 Use VSCode's Remote Container extension to bash into the projects container and then execute the node server.
