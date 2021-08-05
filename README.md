@@ -1,6 +1,6 @@
 | Statements                  | Branches                | Functions                 | Lines             |
 | --------------------------- | ----------------------- | ------------------------- | ----------------- |
-| ![Statements](https://img.shields.io/badge/statements-68.29%25-red.svg) | ![Branches](https://img.shields.io/badge/branches-68.18%25-red.svg) | ![Functions](https://img.shields.io/badge/functions-50%25-red.svg) | ![Lines](https://img.shields.io/badge/lines-68.29%25-red.svg) |
+| ![Statements](https://img.shields.io/badge/statements-69.29%25-red.svg) | ![Branches](https://img.shields.io/badge/branches-69.57%25-red.svg) | ![Functions](https://img.shields.io/badge/functions-53.33%25-red.svg) | ![Lines](https://img.shields.io/badge/lines-69.29%25-red.svg) |
 
 # Get started
 1. GET IN THE DEVCONTAINER IF YOU WANT TO LIVE. Everything will be executed inside.
