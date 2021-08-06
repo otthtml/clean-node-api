@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch",
+    "lint": "eslint 'src/**' --fix",
+    "test": "jest --passWithNoTests --silent --runInBand",
+    "test:unit": "npm test -- --watch -c jest-unit-config.js",
+    "test:integration": "npm test -- --watch -c jest-integration-config.js",    
+    "test:staged": "npm test -- --coverage --findRelatedTests",
+    "test:ci": "npm test -- --coverage",
     "release": "standard-version",
-    "release:minor": "standard-version --release-as minor",
-    "release:patch": "standard-version --release-as patch",
-    "release:major": "standard-version --release-as major"
+    "make-badges": "istanbul-badges-readme"
   },
   "keywords": [],
   "author": "",
