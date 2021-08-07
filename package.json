@@ -19,6 +19,7 @@
   "devDependencies": {
     "@types/jest": "^26.0.24",
     "@types/node": "^16.4.1",
+    "@types/validator": "^13.6.3",
     "@typescript-eslint/eslint-plugin": "^4.28.4",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
@@ -47,5 +48,8 @@
     "hooks": {
       "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
     }
+  },
+  "dependencies": {
+    "validator": "^13.6.0"
   }
 }
